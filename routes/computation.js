@@ -12,7 +12,7 @@ router.get('/',function(req,res,next){
    var absfunction=Math.abs(number4);
    res.render('computation',
    {
-    title:'Mahitha Avula',
+    title:'Mahitha Avula computation',
     number1:number1,
     number2:number2,
     number3:number3,
