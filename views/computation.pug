@@ -3,7 +3,8 @@ extends layout
 block content 
   h1 #{title}
  
-  p Math.sin () is applied to #{number1} is #{sin}
-  p Math.acos() is applied to #{number2} is #{acos}
-  p Math.sinh () is applied to #{number3} is #{sinh}
-  p Math.abs () is applied to #{number4} is #{abs}
+  //- p Math.sin () is applied to #{number1} is #{sin}
+  p f{Math.acos()} is applied to #{number2} is #{acos}
+  p f{Math.sinh ()} is applied to #{number3} is #{sinh}
+  p f{Math.abs ()} is applied to #{number4} is #{abs}
+  p f{Math.sin()} applied to #{number1} is #{sin}
